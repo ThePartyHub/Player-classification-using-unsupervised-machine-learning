@@ -2,13 +2,11 @@
 
 Clustering is a core technique in marketing analytics — used to segment customers, identify behavioral groups, and target strategies effectively. The same logic applies to football: instead of treating players only by predefined positions, clustering helps uncover underlying roles and patterns that better explain performance.
 
-This project applies that idea to Fantasy Premier League (FPL) data.
+This project applies that idea to Fantasy Premier League (FPL) data. Data Source: https://github.com/vaastav/Fantasy-Premier-League/
 
 **K-Means** → shows how new clusters can reveal player roles that make more sense than traditional positions.
 
 **Gaussian Mixture Models (GMM)** → highlights K-Means shortcomings and improves by allowing soft memberships (players can belong to multiple roles with probabilities).
-
-## Dataset: Fantasy Premier League player data, focusing on features like creativity, influence, threat, and performance metrics.
 
 ## What’s inside
 player_classification.ipynb → notebook with data prep, clustering, and visualizations.
